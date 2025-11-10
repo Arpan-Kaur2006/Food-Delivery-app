@@ -39,6 +39,7 @@ body{
     color:white;
     cursor:pointer;
     transition:0.3s ease;
+    text-decoration: none;
     display:inline-block;  /* <--transform: scale() inline elements par proper visible effect nahi deta.
 Isko inline-block ya block banana padta hai. */
 }
@@ -234,6 +235,187 @@ copyright {
     opacity: 0.7;
 }
 
+/* LOGIN PAGE STYLING */
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #e8f3ec;
+    font-family: 'Poppins', sans-serif;
+}
 
+.login-box {
+    background: white;
+    padding: 40px 50px;
+    border-radius: 15px;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
 
+.login-logo {
+    width: 150px;
+    margin-bottom: 15px;
+}
 
+.login-input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    margin-top: 18px;
+    background: #1b4b2f;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.login-btn:hover {
+    background: #14502f;
+}
+
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #1b4b2f;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* home button */
+.home-btn {
+    position: relative;
+    top: -270px;       /* distance from top of page */
+    left: 200px;      /* distance from left of page */
+    text-decoration: none;
+    z-index: 10;
+    justify-content: center;
+    align-items: center; 
+        /* ensures it stays above other content */
+}
+
+.home-icon {
+    width: 60px;   
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.home-icon:hover {
+    transform: scale(1.1);
+}
+
+.cart-container {
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+.cart-items {
+    margin-top: 20px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background: #f8f8f8;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cart-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cart-item-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.item-details {
+    flex: 1;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.item-details h3 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.item-details p {
+    margin: 5px 0 0 0;
+    font-weight: 500;
+}
+
+.item-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.item-actions input {
+    width: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.remove-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #ff4b4b;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background 0.3s;
+}
+
+.remove-btn:hover {
+    background: #d13b3b;
+}
+
+.cart-summary {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout-btn {
+    padding: 10px 20px;
+    background: #78B033;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s;
+}
+
+.checkout-btn:hover {
+    background: #5e8b28;
+}

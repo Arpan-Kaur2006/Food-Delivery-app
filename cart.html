@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Yumyums</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+     <header class="navbar">
+        <img src="IMAGES/yumyumslogo2.png" class="logo" width="150">
+        <nav class="index">
+            <a href="index.html">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Offers</a>
+            
+        </nav>
+
+
+    <div class="cart-container">
+        <h2>Your Cart</h2>
+        <p class="login-subtext">Review your delicious order 😊</p>
+
+        <div class="cart-items">
+            <!-- Example Cart Item -->
+            <div class="cart-item">
+                <img src="IMAGES/burger.svg" alt="Cheese Burger" class="cart-item-img">
+                <div class="item-details">
+                    <h3>Cheese Burger</h3>
+                    <p>$5.99</p>
+                </div>
+                <div class="item-actions">
+                    <input type="number" value="1" min="1">
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+
+            <div class="cart-item">
+                <img src="IMAGES/Pizza.svg" alt="Veg Pizza" class="cart-item-img">
+                <div class="item-details">
+                    <h3>Veg Pizza</h3>
+                    <p>$8.99</p>
+                </div>
+                <div class="item-actions">
+                    <input type="number" value="2" min="1">
+                    <button class="remove-btn">Remove</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="cart-summary">
+            <h3>Total: $23.97</h3>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+</body>
+</html>
+
