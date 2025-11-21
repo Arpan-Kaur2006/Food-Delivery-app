@@ -10,7 +10,7 @@ body{
     font-family:"Poppins", sans-serif;
 }
 
-/* NAVBAR */
+
 .navbar{
     display:flex;
     justify-content:space-between;
@@ -40,15 +40,14 @@ body{
     cursor:pointer;
     transition:0.3s ease;
     text-decoration: none;
-    display:inline-block;  /* <--transform: scale() inline elements par proper visible effect nahi deta.
-Isko inline-block ya block banana padta hai. */
+    display:inline-block; 
 }
 
 .small-btn:hover{
     transform: scale(1.05);
 }
 
-/* HERO SECTION */
+
 .hero-section{
     display:flex;
     align-items:center;
@@ -125,13 +124,12 @@ Isko inline-block ya block banana padta hai. */
     cursor:pointer;
 }
 
-/* CATEGORIES */
+
 .categories{
     text-align:center;
     padding:30px;
 }
 
-/* CATEGORIES SECTION */
 .categories {
     text-align: center;
     padding: 60px 20px;
@@ -147,7 +145,7 @@ Isko inline-block ya block banana padta hai. */
     margin-top: 30px;
 }
 
-/* Category Box */
+
 .cat-item,
 .option-item {
     display: flex;
@@ -160,7 +158,7 @@ Isko inline-block ya block banana padta hai. */
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-/* Category Images */
+
 .cat-item img {
     width: 120px;
     height: 120px;
@@ -176,7 +174,7 @@ Isko inline-block ya block banana padta hai. */
     
 }
 
-/* Text inside Cards */
+
 .cat-item p,
 .option-item p {
     font-size: 18px;
@@ -184,7 +182,7 @@ Isko inline-block ya block banana padta hai. */
     margin-top: 10px;
 }
 
-/* Hover Effect */
+
 .cat-item:hover,
 .option-item:hover {
     transform: scale(1.08);
@@ -193,7 +191,7 @@ Isko inline-block ya block banana padta hai. */
 }
 
 
-/* FOOTER */
+
 .footer {
     background: #ffffff;
     border-top: 1px solid #d9e4dc;
@@ -235,7 +233,7 @@ copyright {
     opacity: 0.7;
 }
 
-/* LOGIN PAGE STYLING */
+
 .login-body {
     display: flex;
     justify-content: center;
@@ -297,13 +295,13 @@ copyright {
 /* home button */
 .home-btn {
     position: relative;
-    top: -270px;       /* distance from top of page */
-    left: 200px;      /* distance from left of page */
+    top: -270px;       
+    left: 200px;      
     text-decoration: none;
     z-index: 10;
     justify-content: center;
     align-items: center; 
-        /* ensures it stays above other content */
+       
 }
 
 .home-icon {
@@ -391,7 +389,7 @@ copyright {
     color: white;
     cursor: pointer;
     font-size: 12px;
-    transition: background 0.3s;
+    
 }
 
 .remove-btn:hover {
@@ -413,7 +411,7 @@ copyright {
     border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
-    transition: background 0.3s;
+   
 }
 
 .checkout-btn:hover {
